@@ -34,7 +34,7 @@ h2 {
   width: 500px;
 	height: 85px;
   padding: 10px;
-	margin: 0 auto;
+	margin: auto;
 }
 
 .message-box {
@@ -54,6 +54,16 @@ h2 {
 .radio {
   margin: 15%;
 }
+
+.receive-message{
+  font-family: 'Quicksand', sans-serif;
+  color: #ffffff;
+  margin: 30px;
+  width: 180px;
+  height: 30px;
+  background-color: #134d71;
+}
+
 img {
   border-radius: 8px;
   padding: 5px;
