@@ -6,15 +6,11 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
-
-* { 
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-  } 
-
 html {
-    height: 100%;
-    background-image: linear-gradient(#134d71, #78a7c6, #f7e4bf);
+  height: 100%;
+  background-image: linear-gradient(#134d71, #78a7c6, #f7e4bf);
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
@@ -29,36 +25,37 @@ h2 {
 }
 
 .choose-message-type {
-	background-color: #ffffff;
-	border-radius: 5px;
+  background-color: #ffffff;
+  border-radius: 5px;
   width: 500px;
-	height: 85px;
+  height: 100px;
   padding: 10px;
-	margin: auto;
+  margin: auto;
 }
 
 .message-box {
   display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 800px;
-	background-color: #ffffff;
-	border-radius: 5px;
-  margin: 5%;
-	height: 150px;
-	margin: 20px auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 150px;
+  margin: 20px auto;
   margin-top: 100px;
 }
 
 .radio {
-  margin: 15%;
+  margin: 12px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .receive-message{
   font-family: 'Quicksand', sans-serif;
   color: #ffffff;
-  margin: 30px;
+  margin: 12px;
   width: 180px;
   height: 30px;
   background-color: #134d71;
