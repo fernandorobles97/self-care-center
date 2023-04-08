@@ -71,6 +71,10 @@ h2 {
   background-color: #134d71;
 }
 
+.hidden {
+  display: none;
+}
+
 img {
   border-radius: 8px;
   padding: 5px;
