@@ -62,6 +62,19 @@ h2 {
   background-color: #134d71;
 }
 
+.delete-message{
+  font-family: 'Quicksand', sans-serif;
+  color: #ffffff;
+  margin: 12px;
+  width: 180px;
+  height: 30px;
+  background-color: #134d71;
+}
+
+.hidden {
+  display: none;
+}
+
 img {
   border-radius: 8px;
   padding: 5px;
