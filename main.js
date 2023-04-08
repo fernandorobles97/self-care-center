@@ -3,10 +3,12 @@ var receiveButton = document.querySelector('.receive-message');
 var affirmBox = document.querySelector('#affirmation');
 var mantraBox = document.querySelector('#mantra');
 var messageBox = document.querySelector('.message-box');
+var deleteButton = document.querySelector('.delete-message');
 
 
 // EVENT LISTENERS
 receiveButton.addEventListener('click', receiveMssg);
+deleteButton.addEventListener('click', deleteMssg);
 
 
 // FUNCTIONS
@@ -24,4 +26,8 @@ function receiveMssg() {
         }
         messageBox.innerHTML = `<p class = "message">${message}</p>`;
     }
+}
+
+function deleteMssg() {
+
 }
