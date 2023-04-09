@@ -21,19 +21,14 @@ function receiveMssg() {
     if (affirmBox.checked || mantraBox.checked) {
         if(affirmBox.checked) {
             message = affirmations[getRandomIndex(affirmations)];
+            deleteButton.classList.remove('hidden');
         } else {
             message = mantras[getRandomIndex(mantras)];
+            deleteButton.classList.remove('hidden');
         }
         messageBox.innerHTML = `<p class = "message">${message}</p>`;
     }
-    removeHiddenClass([deleteButton]);
 }
-
-function removeHiddenClass(elements) {
-    for (var i=0; i < elements.length; i++){
-      elements[i].classList.remove('hidden')
-    }
-  }
 
 function deleteMssg() {
     if (affirmBox.checked || mantraBox.checked) {
