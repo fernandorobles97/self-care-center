@@ -11,7 +11,7 @@ The Self Care Center is an app designed for users who are seeking motivation or 
 3. Run open index.html to view the app.
 
 ### Preview of App:
-[//]: <> ![Screenshot 2023-04-09 at 9 56 36 PM](https://user-images.githubusercontent.com/123911055/230816420-d5236298-99e0-41c2-9f7d-4ff3376b35c6.png)
+![Screenshot 2023-04-09 at 9 56 36 PM](https://user-images.githubusercontent.com/123911055/230816420-d5236298-99e0-41c2-9f7d-4ff3376b35c6.png)
 
 
 ### Context:
