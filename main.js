@@ -17,40 +17,41 @@ function getRandomIndex(array) {
 }
 
 function receiveMssg() {
-    message = ''
+    message = '';
     if (affirmBox.checked || mantraBox.checked) {
         if(affirmBox.checked) {
             message = affirmations[getRandomIndex(affirmations)];
+            deleteButton.classList.remove('hidden');
         } else {
             message = mantras[getRandomIndex(mantras)];
+            deleteButton.classList.remove('hidden');
         }
         messageBox.innerHTML = `<p class = "message">${message}</p>`;
     }
-    removeHiddenClass([deleteButton]);
 }
 
-function removeHiddenClass(elements) {
-    for (var i=0; i < elements.length; i++){
-      elements[i].classList.remove('hidden')
+function searchMantra() {
+    for (var i = 0; i < mantras.length; i++) {
+        if (mantras[i] === message) {
+            mantras.splice(i, 1);
+            alert('You won\'t see this mantra anymore.');
+        }
     }
-  }
+}
+
+function searchAffirm() {
+    for (var i = 0; i < affirmations.length; i++) {
+        if (affirmations[i] === message) {
+            affirmations.splice(i, 1);
+            alert('You won\'t see this affirmation anymore.');
+        }
+    }
+}
 
 function deleteMssg() {
-    if (affirmBox.checked || mantraBox.checked) {
-        if (mantraBox.checked) {
-            for (var i = 0; i < mantras.length; i++) {
-                if (mantras[i] === message) {
-                    mantras.splice(i, 1);
-                    alert('You won\'t see this mantra anymore.');
-                }
-            }
-        } else {
-            for (var i = 0; i < affirmations.length; i++) {
-                if (affirmations[i] === message) {
-                    affirmations.splice(i, 1);
-                    alert('You won\'t see this affirmation anymore.');
-                }
-            }      
-        }
+    if (mantraBox.checked) {
+        searchMantra();
+    } else {
+        searchAffirm();
     }
 }
