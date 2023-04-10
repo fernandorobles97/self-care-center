@@ -17,7 +17,7 @@ function getRandomIndex(array) {
 }
 
 function receiveMssg() {
-    message = ''
+    message = '';
     if (affirmBox.checked || mantraBox.checked) {
         if(affirmBox.checked) {
             message = affirmations[getRandomIndex(affirmations)];
@@ -30,22 +30,28 @@ function receiveMssg() {
     }
 }
 
-function deleteMssg() {
-    if (affirmBox.checked || mantraBox.checked) {
-        if (mantraBox.checked) {
-            for (var i = 0; i < mantras.length; i++) {
-                if (mantras[i] === message) {
-                    mantras.splice(i, 1);
-                    alert('You won\'t see this mantra anymore.');
-                }
-            }
-        } else {
-            for (var i = 0; i < affirmations.length; i++) {
-                if (affirmations[i] === message) {
-                    affirmations.splice(i, 1);
-                    alert('You won\'t see this affirmation anymore.');
-                }
-            }      
+function searchMantra() {
+    for (var i = 0; i < mantras.length; i++) {
+        if (mantras[i] === message) {
+            mantras.splice(i, 1);
+            alert('You won\'t see this mantra anymore.');
         }
+    }
+}
+
+function searchAffirm() {
+    for (var i = 0; i < affirmations.length; i++) {
+        if (affirmations[i] === message) {
+            affirmations.splice(i, 1);
+            alert('You won\'t see this affirmation anymore.');
+        }
+    }
+}
+
+function deleteMssg() {
+    if (mantraBox.checked) {
+        searchMantra();
+    } else {
+        searchAffirm();
     }
 }
