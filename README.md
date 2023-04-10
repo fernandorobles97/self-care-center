@@ -1,51 +1,31 @@
-# Self Care Center
-## Overview
-How can I care for myself? One way is with affirmations and mantras!
-Affirmations are thoughts of positive self-empowerment, meant to assert your self-worth.
-Mantras are repetive phrases that are repeated again and again during mindfulness practices. Your challenge is to build an app that helps users remind themselves of their inherent value!
-
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
-
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/self-care-center.html). 
-
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
-## Setup
-
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
-
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
-
 # Self-Care Center 
 
 ### Abstract:
-[//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+[//]: <>  
+The Self Care Center is an app designed for users who are seeking motivation or a pick-me-up through their day-to-day life. The user is presented with a choice between receiving a mantra or an affirmation message, and once a selection has been made, a random message will display. If the user receives a message they don't want to see again, they have the choice to delete the message and are alerted that they won't see that message again. 
 
 ### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+[//]: <> 
+1. Fork the repository.
+2. Clone it down to the local system.
+3. Run open index.html to view the app.
 
 ### Preview of App:
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+[//]: <> ![Screenshot 2023-04-09 at 9 56 36 PM](https://user-images.githubusercontent.com/123911055/230816420-d5236298-99e0-41c2-9f7d-4ff3376b35c6.png)
+
 
 ### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+[//]: <> 
+This project took roughly 10 hours total to create. We had about 5 days to work on it. I'm in Mod 1 week 3 of the Turing Front End Program.
 
 ### Contributors:
-[//]: <> (Who worked on this application? Link to their GitHubs.)
+[//]: <> 
+https://github.com/fernandorobles97
 
 ### Learning Goals:
-[//]: <> (What were the learning goals of this project? What tech did you work with?)
+[//]: <> 
+Utilizing CSS and HTML were the prioritized learning goals for this project and the ones that provided the most difficulty.
 
 ### Wins + Challenges:
-[//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+[//]: <> 
+Figuring out how to utilize CSS better and how to approach all the different styles and properties there was a difficult challenge that I'm proud I was able to solve. Refactoring the functions in JS to be more aligned with SRP was a task I was able to work through sooner than I thought. The biggest challenge was trying to figure out how to make my page match the comp and this was due to the struggles I faced with CSS and HTML. With help from other students and the lessons, I was able to become more comfortable navigating these languages.
